@@ -135,7 +135,7 @@ header .navigation li a
     transform: scale(0.5);
 }
 
-/***slider***/
+/******slider******/
 .swiper-container {
     width: 100%;
     padding-top: 50px;
@@ -145,6 +145,27 @@ header .navigation li a
 .swiper-slide {
     background-position: center;
     background-size: cover;
-    width: 300px;
-    height: 300px;
+    width: 180px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+.content .imgBox 
+{
+    width: 500px;
+    display: flex;
+    justify-content: flex-end;
+}
+.content .imgBox img
+{
+    max-width: 150px;
+}
+.swiper-slide img
+{
+    position: absolute;
+    bottom: 0;
+    max-width: 100%;
+}
+.swiper-container-3d .swiper-slide-shadow-left,{
+    
 }
