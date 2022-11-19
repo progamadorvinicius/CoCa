@@ -178,14 +178,42 @@ header .navigation li a
     {
         padding: 40px;
     }
-    section {
-        position: relative;
-        width: 100%;
-        min-height: 100vh;
+    section
+    {
         padding: 150px 40px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        background: #161616;
     }
+    .sci
+    {
+        left: 40px;
+    }
+    .content
+    {
+        flex-direction: column;
+    }
+    .content .textBox,
+    .content .imgBox
+    {
+        max-width: 100%;
+    }
+    .swiper-slide
+    {
+        height: 300px;
+    }
+    header .navigation
+    {
+        display: none;
+    }
+    .toggle
+    {
+        position: relative;
+        width: 30px;
+        height: 30px;
+        background: url(menu.png);
+        background-size: 30px;
+        background-repeat: no-repeat;
+        background-position: center;
+        cursor: pointer;
+        z-index: 1000;
+    }
+        
 }
